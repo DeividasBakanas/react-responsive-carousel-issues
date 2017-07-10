@@ -1,7 +1,7 @@
 {
-  "name": "data-store-example",
+  "name": "issue-154",
   "version": "0.1.0",
-  "description": "Example of SimplrFlux DataStore.",
+  "description": "Reconstruction of react-resonsive-carousel issue.",
   "private": true,
   "scripts": {
     "setup": "npm install && jspm install",
@@ -25,7 +25,7 @@
     "react-responsive-carousel": "^3.1.24"
   },
   "jspm": {
-    "name": "data-store-example",
+    "name": "issue-154",
     "main": "app/app.js",
     "configFiles": {
       "jspm": "src/configs/jspm.config.js"

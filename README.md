@@ -4,3 +4,5 @@ Repository for [react-responsive-carousel](https://github.com/leandrowd/react-re
 ## [issue-153](./issue-153)
 
 ## [issue-154](./issue-154)
+
+## [issue-155](./issue-155)
