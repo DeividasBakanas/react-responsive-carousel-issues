@@ -1,5 +1,5 @@
 {
-  "name": "issue-153",
+  "name": "issue-155",
   "version": "0.1.0",
   "description": "Reconstruction of react-resonsive-carousel issue.",
   "private": true,
@@ -25,7 +25,7 @@
     "react-responsive-carousel": "^3.1.24"
   },
   "jspm": {
-    "name": "issue-153",
+    "name": "issue-155",
     "main": "app/app.js",
     "configFiles": {
       "jspm": "src/configs/jspm.config.js"

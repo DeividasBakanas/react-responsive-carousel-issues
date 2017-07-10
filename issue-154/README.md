@@ -6,6 +6,8 @@
 npm run setup && npm run start
 ```
 
+Open `http://localhost:4040` in your browser.
+
 ## Description
 
 Issue: Unexpected items flick in touch devices when Carousel is controlled and not with image items.

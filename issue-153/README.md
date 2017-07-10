@@ -6,6 +6,8 @@
 npm run setup && npm run start
 ```
 
+Open `http://localhost:4040` in your browser.
+
 ## Description
 
 Issue: Failed to calculate Carousel items size initially when items are not images.
