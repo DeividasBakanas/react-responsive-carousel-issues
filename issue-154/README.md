@@ -8,7 +8,7 @@ npm run setup && npm run start
 
 ## Description
 
-Issue: Unexpected items flick in touch devices when Carousel is controlled with not image items.
+Issue: Unexpected items flick in touch devices when Carousel is controlled and not with image items.
 
 __This issue can only be reproduced in touch capable devices (touch screens).__
 
@@ -22,7 +22,7 @@ This method is called every time [swipe ends](https://github.com/leandrowd/react
 
 Method [`onSwipeEnd`](https://github.com/leandrowd/react-responsive-carousel/blob/master/src/components/Carousel.js#L287) is called before metods [`increment`](https://github.com/leandrowd/react-responsive-carousel/blob/master/src/components/Carousel.js#L355) or [`decrement`](https://github.com/leandrowd/react-responsive-carousel/blob/master/src/components/Carousel.js#L351) so:
 1. Item is swiped by user to a certain position.  
-2. Item is swiped to it's initial position.
-3. Item is swiped to next position (`increment` or `decrement` is called).
+2. `onSwipeEnd` is called and `resetPosition` swipes item to it's initial position.
+3. `increment` / `decrement` is called and it swipes item to next position.
 
-This causes unexpected items flick. Which is very noticable in touch devices.
+This sequence causes unexpected items flick which is very noticeable in touch devices and not that noticeable with emulated touch.
